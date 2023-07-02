@@ -7,7 +7,7 @@ engine.setProperty('rate', 160)
 engine.setProperty('pitch', 0.8)
 recognizer = sr.Recognizer()
 
-openai.api_key = "fake keys"
+openai.api_key = ""
 prompt= "hello there, in obi wan voice"
 def create_response(text):
   response = openai.Completion.create(
@@ -58,6 +58,3 @@ while True:
 # engine.runAndWait()
 # engine.stop()
 
-
-
-#### I AM MAKING THESE CHANGES TO THE FILE TO SEE IF THEY WILL BE ON GIT
