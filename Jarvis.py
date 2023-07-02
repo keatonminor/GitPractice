@@ -7,7 +7,7 @@ engine.setProperty('rate', 160)
 engine.setProperty('pitch', 0.8)
 recognizer = sr.Recognizer()
 
-openai.api_key = "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"
+openai.api_key = ""
 prompt= "hello there, in obi wan voice"
 def create_response(text):
   response = openai.Completion.create(
